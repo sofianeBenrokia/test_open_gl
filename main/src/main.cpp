@@ -48,7 +48,7 @@ static unsigned int S_create_shader(std::string& vertex_shader , std::string& fr
 
     }
 
-int main(void)
+int main()
     {
         GLFWwindow* window;
 
