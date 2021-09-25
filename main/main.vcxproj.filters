@@ -10,4 +10,10 @@
       <Filter>main</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\init_destroy\init_gl_window.hpp" />
+    <ClInclude Include="src\declaration\globale.hpp" />
+    <ClInclude Include="src\declaration\define.hpp" />
+    <ClInclude Include="src\object\buffer\buffer.hpp" />
+  </ItemGroup>
 </Project>
