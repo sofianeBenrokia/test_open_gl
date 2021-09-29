@@ -9,10 +9,18 @@ class Buffer
             ~Buffer() /*method*/ {destroy() ;}
 
             /*
-            * void init(unsigned int &index_vertex_attrib_array, -> (index_vertex_attrib_array: )
-            *          unsigned int &size,                       -> (size: )
-            *          unsigned int &type,                       -> (type: )
-            *          auto *data)                               -> (data: )
+            * void init(unsigned int &index_vertex_attrib_array,
+            *               -> (index_vertex_attrib_array: )
+            *
+            *          unsigned int &size,
+            *               -> (size: )
+            *
+            *          unsigned int &type,
+            *               -> (type: )
+            *
+            *          auto *data)
+            *               -> (data: )
+            *       --------
             */
             void init(unsigned int &index_vertex_attrib_array,
                      unsigned int &size,
